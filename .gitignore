@@ -28,3 +28,6 @@ benchmarks/graphs
 
 # Static
 public
+
+# IDE
+.idea
