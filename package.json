@@ -1,0 +1,17 @@
+{
+  "name": "covid19-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "get-report": "node -e 'require(\"./report.js\").download()'",    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mehmet Alp Sümer",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^2.3.2",
+    "express": "^4.17.1"
+  }
+}
